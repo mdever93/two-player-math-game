@@ -7,8 +7,6 @@ class Player
   end
 
   def lose_life
-    lives -= 1
+    @lives -= 1
+  end
 end
-
-P1 = Player.new("Player 1")
-P2 = Player.new("Player 2")
